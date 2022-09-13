@@ -8,7 +8,7 @@
 // };
 export default {
   data: () => ({
-    contador: 200,
+    contador: 500,
   }),
   methods: {
     saludar() {
@@ -21,7 +21,7 @@ export default {
       this.contador--;
     },
     resetear() {
-      this.contador = 200;
+      this.contador = 0;
     },
   },
 };
